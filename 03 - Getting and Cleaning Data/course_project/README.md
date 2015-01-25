@@ -73,7 +73,7 @@ y_[test/tain].txt       | Subject activity data
 
 **The Tidy Data**
 The basic process is WELL documented in run_analyis.R file. We download the files, select 
-columns that are the MEAN or STANDARD DEVIATION, and then combine the various datasets, output data to tidy.ext file
+columns that are the MEAN or STANDARD DEVIATION, and then combine the various datasets, output data to tidy.ext file according to the requirements.
 
 The code below shows what has changed for Feature Names (Column Names)
 
@@ -90,5 +90,5 @@ features.cleaned <- gsub("BodyBody", "Body", features.cleaned, fixed = TRUE)
 3. Change std to StandardDeviation 
 4. Remove extra Body from name
 
-The code is set up suck that if needed, you can add more changes as required
+The code is set up such that if needed, you can add more changes as required
 
