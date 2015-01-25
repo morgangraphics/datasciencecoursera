@@ -34,11 +34,13 @@ Some of the data loading may take a while, I've added messages to show progress
 **Assumptions**
   
   This README.md file also serves as the CODEBOOK
+  
+  The basic process is WELL documented in run_analyis.R file.
 
   KISS Mentality. While the data has been merged and some of the variables (column names) changed to meet the requirements, I didn't alter the 
   names drastically from the original dataset. Reinventing the wheel is not really necessary here. Additionally, making the variable
   names more readable often leads to ridiculously long names which is a pain to type. I kept things simple leaving the option to add more
-  changes where needed.
+  changes where needed. See Tidy Data below
   
   My variable names are standardized that logically groups things together (SUBJECT.INSTANCE) i.e.
   
@@ -72,6 +74,7 @@ y_[test/tain].txt       | Subject activity data
 
 
 **The Tidy Data**
+
 The basic process is WELL documented in run_analyis.R file. We download the files, select 
 columns that are the MEAN or STANDARD DEVIATION, and then combine the various datasets, output data to tidy.ext file according to the requirements.
 
